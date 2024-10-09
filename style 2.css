@@ -1,0 +1,51 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Monocraft', 'Comic Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Imagem como background */
+body {
+    background-image: url('./fundo\ foda\ 4\ -\ DEFENITIVE.png'); /* Caminho da imagem */
+    background-size: cover; /* Faz a imagem cobrir a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+}
+
+a {
+    color: #252525;
+    text-decoration: none;
+}
+
+header h1 {
+    color: rgb(25, 25, 25);
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+footer p {
+    font-size: 18px;
+    color: #252525;
+}

@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Monocraft', 'Comic Sans', sans-serif;
+}
+
+
+/* Centralizar conteúdo */
+header, footer {
+    text-align: center;
+    padding: 20px;
+    color: #252525; /* Cor do texto */
+}
+
+/* Configurações do rodapé */
+footer {
+    background-color: rgba(255, 255, 255, 0); /* Fundo semitransparente */
+    padding: 10px;
+    width: 100%; /* O rodapé cobre toda a largura da tela */
+    position: relative;
+    z-index: 1;
+}
+
+footer p {
+    font-size: 18px;
+    color: #252525;
+}
+
+/* Estilo das seções (lado a lado) */
+.section-container {
+    display: flex; /* Coloca as seções lado a lado */
+    justify-content: center; /* Centraliza as seções horizontalmente */
+    align-items: top; /* Centraliza as seções verticalmente */
+    flex-grow: 1;
+}
+
+section {
+    flex: 1; /* Cada seção ocupa o mesmo espaço */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #252525;
+    background-color: rgba(255, 255, 255, 0); /* Fundo das seções levemente transparente */
+    margin: 20px;
+    height: 200px;
+    text-align: center;
+}
+
+a {
+    color: #252525;
+    text-decoration: none;
+}
